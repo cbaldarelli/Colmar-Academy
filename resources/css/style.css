@@ -4,7 +4,25 @@ html {
   color: #4a4a4a;
 }
 
+.container {
+  padding: 2rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 60rem;
+  margin: 0 auto;
+}
 
+.container-image {
+  width: 60%;
+  padding-right: 1.5rem;
+
+}
+.container-image img {      /*Figure out how to get image to span the whole 60%*/
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* Header */
 
 header {
@@ -103,3 +121,36 @@ header .mobile {
     color: white;
   }
 }
+
+/* Banner */
+
+.banner {
+  position: relative;
+  top: 4rem;
+  background-color: lightgray;
+}
+
+.banner-text {
+  width: 30%;
+}
+.banner-text h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.banner-text h3 {
+  font-size: 1rem;
+  padding: 2rem 0;
+}
+
+.banner-text p {
+  font-size: 0.85rem;
+}
+
+.banner .button {
+  width: 100%;
+  background-color: dimgrey;
+  color: lightgray;
+  padding: 0.5rem 0;
+display: flex;
+justify-content: center;
