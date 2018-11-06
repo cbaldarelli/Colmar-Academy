@@ -11,16 +11,17 @@ header {
   position: fixed;
   width: 100%;
   z-index: 10;
-  height: 5.3125rem;
-  border-bottom: solid 1px #c6c1c1;
+  height: 4rem;
   background-color: white;
+
 }
 
 header .content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.875rem;
+  height: 100%;
+  padding: 0 1.5rem;
   line-height: 1.6;
 }
 
@@ -51,10 +52,10 @@ nav a {
   text-decoration: none;
 }
 
-header .icon {
+/*header .icon {
   width: 1rem;
   padding-left: .75rem;
-}
+}*/
 
 header .mobile {
   display: none;
