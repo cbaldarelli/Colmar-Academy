@@ -19,8 +19,6 @@ html {
 
 .container-image {
   width: 60%;
-  padding-right: 1.5rem;
-
 }
 .container-image img {      /*Figure out how to get image to span the whole 60%*/
   max-width: 100%;
@@ -39,6 +37,10 @@ html {
   font-weight: bold;
 }
 
+.container h2 {
+  font-size: 1.85rem;
+  font-weight: bold;
+}
 .container h4, p {
   font-size: 0.65rem;
 }
@@ -48,6 +50,7 @@ html {
   flex-direction: column;
   width: 40%;
   max-height: 100%;
+  padding-left: 0.5rem;
 }
 
 .feature {
@@ -183,7 +186,8 @@ header .mobile {
 .banner {
   position: relative;
   top: 4rem;
-  background-color: lightgray;
+  background-color: #d9d9d9
+;
 }
 
 .banner .container {
@@ -191,6 +195,7 @@ header .mobile {
 }
 .banner-text {
   width: 35%;
+  margin-left: 1.5rem;
 }
 
 .banner h3 {
@@ -213,7 +218,7 @@ justify-content: center;
   top: 4rem;  /*Figure out how to line up sections without needing this */
 }
 
-.information h1 {
+.information h2 {
   margin-top: 2rem;
   margin-bottom: 1.5rem;
 }
