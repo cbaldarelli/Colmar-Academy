@@ -243,6 +243,7 @@ justify-content: center;
   flex-direction: column;
   align-items: center;
   background-color: #d9d9d9;
+  padding: 2rem 4.5rem;
 }
 
 .course {
@@ -250,6 +251,7 @@ justify-content: center;
   display: flex;
   flex-direction: column;
   width: 16.67rem;
+  margin-bottom: 2rem;
 }
 
 .course img {
@@ -262,8 +264,21 @@ justify-content: center;
   justify-content: center;
   max-width: 100%;
   flex-wrap: wrap;
+  margin-top: 2rem;
 }
 
+.course-info {
+  background-color: white;
+  padding: 1rem;
+}
 #design, #marketing {
   padding-right: 0;
+}
+
+.course p {
+  padding-bottom: 0.5rem;
+}
+
+.course h4 {
+  padding: 0.5rem 0;
 }
