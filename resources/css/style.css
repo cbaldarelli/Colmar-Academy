@@ -15,7 +15,6 @@ html {
   justify-content: flex-start;
   max-width: 60rem;
   margin: 0 auto;
-  border: 1px solid green;
 }
 
 .container-image {
@@ -234,13 +233,16 @@ justify-content: center;
 
 /* Courses */
 
-#courses {
-  border: 1px solid red;
+.courses {
+  background-color: #d9d9d9;
   position: relative;
   top: 4rem;
+}
+#courses {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #d9d9d9;
 }
 
 .course {
