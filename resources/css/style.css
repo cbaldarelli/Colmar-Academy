@@ -82,6 +82,13 @@ html {
 .feature .more {
   color: blue;
 }
+
+.title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
 /* Header */
 
 header {
@@ -238,10 +245,8 @@ justify-content: center;
   position: relative;
   top: 4rem;
 }
+
 #courses {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   background-color: #d9d9d9;
   padding: 2rem 4.5rem;
 }
@@ -251,7 +256,7 @@ justify-content: center;
   display: flex;
   flex-direction: column;
   width: 16.67rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2rem; /*Figure out how to make all courses same height */
 }
 
 .course img {
@@ -281,4 +286,18 @@ justify-content: center;
 
 .course h4 {
   padding: 0.5rem 0;
+}
+
+#thesis {
+  position: relative;
+  top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thesis-info {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 0;
 }
