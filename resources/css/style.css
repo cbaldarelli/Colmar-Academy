@@ -10,7 +10,7 @@ html {
 .container {
   padding: 2rem 1.5rem;
   display: flex;
-  align-items: center;
+  /*align-items: center;*/
   justify-content: flex-start;
   max-width: 60rem;
   margin: 0 auto;
@@ -65,6 +65,10 @@ html {
   max-width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.feature h4 {
+  padding: 0.5rem 0;
 }
 /* Header */
 
@@ -206,5 +210,9 @@ justify-content: center;
 }
 
 .caption {
+  padding-top: 2rem;
+}
 
+#orientation {
+  padding-top: 0;
 }
