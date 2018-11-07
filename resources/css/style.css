@@ -15,6 +15,7 @@ html {
   justify-content: flex-start;
   max-width: 60rem;
   margin: 0 auto;
+  border: 1px solid green;
 }
 
 .container-image {
@@ -229,4 +230,38 @@ justify-content: center;
 
 #orientation {
   padding-top: 0;
+}
+
+/* Courses */
+
+#courses {
+  border: 1px solid red;
+  position: relative;
+  top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.course {
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 16.67rem;
+}
+
+.course img {
+  max-width: 100%;
+}
+
+.course-offerings {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+#design, #marketing {
+  padding-right: 0;
 }
