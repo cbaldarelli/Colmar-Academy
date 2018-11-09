@@ -1,13 +1,17 @@
+/* Universal Styles */
+
 html {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
-  color: #4a4a4a;
+  color: #383140;
 }
 
 .main-content {
   line-height: 1.6;
-
+  position: relative;
+  top: 4rem;
 }
+
 .container {
   padding: 2rem 1.5rem;
   display: flex;
@@ -19,6 +23,7 @@ html {
 .container-media {
   width: 60%;
 }
+
 .container-media img {
   max-width: 100%;
   background-repeat: no-repeat;
@@ -28,6 +33,7 @@ html {
 .container-media video {
   height: auto;
 }
+
 .container h1 {
   font-size: 2.35rem;
   line-height: 1.2;
@@ -43,6 +49,7 @@ html {
   font-size: 1.85rem;
   font-weight: bold;
 }
+
 .container h4, p {
   font-size: 0.65rem;
 }
@@ -89,8 +96,8 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
+
 /* Header */
 
 header {
@@ -99,7 +106,7 @@ header {
   z-index: 10;
   height: 4rem;
   background-color: white;
-
+  color: #383140;
 }
 
 header .content {
@@ -116,6 +123,7 @@ header .logo {
   display: flex;
   align-items: center;
   text-transform: uppercase;
+  color: #383140;
 }
 
 header .logo img {
@@ -134,7 +142,7 @@ nav a {
   vertical-align: bottom;
   line-height: 1.6;
   font-size: 1rem;
-  color: #4a4a4a;
+  color: #383140;
   text-decoration: none;
 }
 
@@ -193,10 +201,7 @@ header .mobile {
 /* Banner */
 
 .banner {
-  position: relative;
-  top: 4rem;
-  background-color: #d9d9d9
-;
+  background-color: #383140;
 }
 
 .banner .container {
@@ -207,14 +212,18 @@ header .mobile {
   margin-left: 1.5rem;
 }
 
+.banner-text h1 {
+  color: #f4ed71;
+}
 .banner h3 {
   padding: 2rem 0;
+  color: #cac7d7;
 }
 
 .banner .button {
   width: 100%;
-  background-color: dimgrey;
-  color: lightgray;
+background-color: #8a8604;
+ color: #f4ed71;
   padding: 0.5rem 0;
 display: flex;
 justify-content: center;
@@ -222,14 +231,10 @@ justify-content: center;
 
 /* Information */
 
-.information {
-  position: relative;
-  top: 4rem;  /*Figure out how to line up sections without needing this */
-}
-
 .information h2 {
   margin-top: 2rem;
   margin-bottom: 1.5rem;
+  color: #8a8604;
 }
 
 .caption {
@@ -243,13 +248,10 @@ justify-content: center;
 /* Courses */
 
 .courses {
-  background-color: #d9d9d9;
-  position: relative;
-  top: 4rem;
+  background-color: #f4ed71;
 }
 
 #courses {
-  background-color: #d9d9d9;
   padding: 2rem 4.5rem;
 }
 
@@ -291,8 +293,6 @@ justify-content: center;
 }
 
 #thesis {
-  position: relative;
-  top: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
