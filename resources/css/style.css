@@ -16,7 +16,7 @@ html {
   padding: 2rem 1.5rem;
   display: flex;
   justify-content: flex-start;
-  max-width: 60rem;
+  /*max-width: 60rem;*/
   margin: 0 auto;
 }
 
@@ -35,13 +35,13 @@ html {
 }
 
 .container h1 {
-  font-size: 2.35rem;
+  font-size: 3rem;
   line-height: 1.2;
   font-weight: bold;
 }
 
 .container h3 {
-  font-size: 1rem;
+  font-size: 1.65rem;
   font-weight: bold;
 }
 
@@ -51,7 +51,7 @@ html {
 }
 
 .container h4, p {
-  font-size: 0.65rem;
+  font-size: 1rem;
 }
 
 .features {
@@ -84,6 +84,9 @@ html {
   width: 65%;
 }
 
+.feature:nth-child(2n+2) {
+  background-color: #f4ed71;
+}
 .feature h4 {
   padding: 0.5rem 0;
 }
@@ -208,7 +211,7 @@ header .mobile {
   align-items: center;
 }
 .banner-text {
-  width: 35%;
+  max-width: 30%;
   margin-left: 1.5rem;
 }
 
@@ -259,12 +262,13 @@ justify-content: center;
   padding-right: 2rem;
   display: flex;
   flex-direction: column;
-  width: 16.67rem;
+  max-width: 27%;
   margin-bottom: 2rem; /*Figure out how to make all courses same height */
 }
 
 .course img {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 .course-offerings {
@@ -278,11 +282,15 @@ justify-content: center;
 
 .course-info {
   background-color: white;
-  padding: 1rem;
+  padding: 1rem 6rem 1.5rem 1rem;
 }
-#design, #marketing {
+
+.course-info:nth-child(2n+2) {
+  background-color: #cac7d7;
+}
+/*#design, #marketing {
   padding-right: 0;
-}
+}*/
 
 .course p {
   padding-bottom: 0.5rem;
