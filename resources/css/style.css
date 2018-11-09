@@ -22,15 +22,17 @@ html {
 
 .container-media {
   width: 60%;
+  margin-right: 1.5rem;
 }
 
 .container-media img {
-  max-width: 100%;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .container-media video {
+  max-width: 100%;
   height: auto;
 }
 
@@ -41,7 +43,7 @@ html {
 }
 
 .container h3 {
-  font-size: 1.65rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -59,7 +61,6 @@ html {
   flex-direction: column;
   width: 40%;
   max-height: 100%;
-  padding-left: 0.5rem;
 }
 
 .feature {
@@ -86,6 +87,10 @@ html {
 
 .feature:nth-child(2n+2) {
   background-color: #f4ed71;
+}
+
+.feature:nth-child(2n+1) {
+  background-color: #cac7d7;
 }
 .feature h4 {
   padding: 0.5rem 0;
@@ -212,7 +217,6 @@ header .mobile {
 }
 .banner-text {
   max-width: 30%;
-  margin-left: 1.5rem;
 }
 
 .banner-text h1 {
@@ -242,6 +246,8 @@ justify-content: center;
 
 .caption {
   padding-top: 2rem;
+  color: #8a8604;
+
 }
 
 #orientation {
@@ -262,7 +268,7 @@ justify-content: center;
   padding-right: 2rem;
   display: flex;
   flex-direction: column;
-  max-width: 27%;
+  width: 27%;
   margin-bottom: 2rem; /*Figure out how to make all courses same height */
 }
 
@@ -306,6 +312,10 @@ justify-content: center;
   align-items: center;
 }
 
+.thesis-info .container-media h3 {
+  padding: 1.5rem 0 0.5rem 0;
+  color: #8a8604;
+}
 .thesis-info {
   display: flex;
   flex-direction: row;
