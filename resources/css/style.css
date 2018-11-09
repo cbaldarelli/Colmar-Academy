@@ -4,6 +4,7 @@ html {
   font-family: "M PLUS rounded 1c", "Montserrat", sans-serif;
   font-size: 16px;
   color: #383140;
+  letter-spacing: 0.005em;
 }
 
 .main-content {
@@ -97,7 +98,7 @@ html {
 }
 
 .feature .more {
-  color: blue;
+  color: #8a8604;
 }
 
 .title-section {
@@ -215,6 +216,7 @@ header .mobile {
 .banner .container {
   align-items: center;
 }
+
 .banner-text {
   max-width: 30%;
 }
@@ -225,6 +227,7 @@ header .mobile {
 .banner h3 {
   padding: 2rem 0;
   color: #cac7d7;
+  font-weight: normal;
 }
 
 .banner .button {
@@ -247,25 +250,18 @@ justify-content: center;
 .caption {
   padding-top: 2rem;
   color: #8a8604;
-
-}
-
-#orientation {
-  padding-top: 0;
 }
 
 /* Courses */
 
 .courses {
   background-color: #f4ed71;
-}
-
-#courses {
-  padding: 2rem 4.5rem;
+  padding: 2rem 0;
 }
 
 .course {
-  padding-right: 2rem;
+  background-color: white;
+margin: 0 1rem 2rem 1rem;
   display: flex;
   flex-direction: column;
   width: 27%;
@@ -287,17 +283,25 @@ justify-content: center;
 }
 
 .course-info {
-  background-color: white;
-  padding: 1rem 6rem 1.5rem 1rem;
+  margin: 1rem 6rem 1.5rem 1rem;
 }
 
-.course-info:nth-child(2n+2) {
+.course-list:nth-child(2n+2) {
+  color: #8a8604;
+}
+
+.course-list:nth-child(2n+1) {
+  color: #f4ed71;
+}
+
+.course:nth-child(2n+2) {
   background-color: #cac7d7;
 }
-/*#design, #marketing {
-  padding-right: 0;
-}*/
 
+.course:nth-child(2n+1) {
+  background-color: #383140;
+  color: #cac7d7;
+}
 .course p {
   padding-bottom: 0.5rem;
 }
