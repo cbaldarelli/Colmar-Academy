@@ -38,18 +38,18 @@ html {
 }
 
 .container h1 {
-  font-size: 3rem;
+  font-size: 3.19rem;
   line-height: 1.2;
   font-weight: bold;
 }
 
-.container h3 {
-  font-size: 1.2rem;
+.container h2 {
+  font-size: 2.2rem;
   font-weight: bold;
 }
 
-.container h2 {
-  font-size: 1.85rem;
+.container h3 {
+  font-size: 1.79rem;
   font-weight: bold;
 }
 
@@ -70,6 +70,10 @@ html {
   padding: 1rem;
 }
 
+.feature:hover {
+  background-color: white;
+}
+
 .feature-photo {
   width: 35%;
   height: auto;
@@ -80,6 +84,7 @@ html {
   max-width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 0.15rem;
 }
 
 .feature-info {
@@ -99,6 +104,10 @@ html {
 
 .feature .more {
   color: #8a8604;
+}
+
+.feature .more:hover {
+  color: white
 }
 
 .title-section {
@@ -128,11 +137,11 @@ header .content {
 }
 
 header .logo {
-  flex: 1;
   display: flex;
   align-items: center;
   text-transform: uppercase;
   color: #383140;
+  font-size: 1.5rem;
 }
 
 header .logo img {
@@ -144,7 +153,7 @@ header nav ul {
 }
 
 nav li {
-  padding-left: 1rem;
+  padding-left: 0.5rem;
 }
 
 nav a {
@@ -153,6 +162,13 @@ nav a {
   font-size: 1rem;
   color: #383140;
   text-decoration: none;
+  padding: 0.5rem;
+}
+
+nav a:hover {
+  background-color: #8a8604;
+  color: white;
+  border-radius: 0.5rem;
 }
 
 /*header .icon {
@@ -230,15 +246,30 @@ header .mobile {
   font-weight: normal;
 }
 
-.banner .button {
-  width: 100%;
-background-color: #8a8604;
- color: #f4ed71;
-  padding: 0.5rem 0;
-display: flex;
-justify-content: center;
+.button {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  width: auto;
 }
 
+.button p {
+  font-size: 1.4rem;
+  padding: 0.5rem 4rem;
+  background-color: #8a8604;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+}
+
+.button p:hover {
+  background-color: #f4ed71;
+  color: #383140;
+}
+
+.button p:active {
+  background-color: white;
+  color: #383140;
+}
 /* Information */
 
 .information h2 {
@@ -247,6 +278,9 @@ justify-content: center;
   color: #8a8604;
 }
 
+.testimonial {
+  padding-right: 5rem;
+}
 .caption {
   padding-top: 2rem;
   color: #8a8604;
@@ -261,7 +295,7 @@ justify-content: center;
 
 .course {
   background-color: white;
-margin: 0 1rem 2rem 1rem;
+  margin: 0 1rem 2rem 1rem;
   display: flex;
   flex-direction: column;
   width: 27%;
@@ -273,6 +307,17 @@ margin: 0 1rem 2rem 1rem;
   height: auto;
 }
 
+.course h3 {
+  font-size: 1.79rem;
+}
+
+.course-title {
+  color: black;
+}
+
+.course-title a:nth-child(2n+1) {
+  color: white;
+}
 .course-offerings {
   display: flex;
   flex-direction: row;
@@ -292,6 +337,10 @@ margin: 0 1rem 2rem 1rem;
 
 .course-list:nth-child(2n+1) {
   color: #f4ed71;
+}
+
+.course-title:nth-child(2n+1) {
+  color: white;
 }
 
 .course:nth-child(2n+2) {
@@ -333,6 +382,7 @@ footer {
   border-top: 1px solid #d9d9d9;
   position: relative;
   top: 4rem;
+  background-color: #383140;
 }
 
 footer .content {
@@ -341,6 +391,7 @@ footer .content {
   justify-content: space-between;
   padding: 1rem 1.5rem;
   font-size: 0.65rem;
+  color: white;
 }
 
 footer ul li {
