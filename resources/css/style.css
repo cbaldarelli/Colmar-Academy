@@ -162,9 +162,13 @@ html {
   }
 }
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:580px) {
   .container {
     padding: 0;
+  }
+
+  .container h2, .title-section h2 {
+    font-size: 2.5rem;
   }
 }
 
@@ -359,7 +363,6 @@ header .mobile {
   }
 
   .container h2 {
-    font-size: 1.85rem;
     font-weight: bold;
   }
 
@@ -537,7 +540,7 @@ header .mobile {
   }
 }
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:580px) {
   .course-offerings {
     margin-top: 2rem;
     width: 100%;
@@ -588,7 +591,27 @@ header .mobile {
   padding: 2rem 0;
 }
 
+@media only screen and (max-width:580px) {
+  #thesis {
+    padding: 2rem 0 1.5rem 0;
+  }
 
+  #thesis .features {
+    display: none;
+  }
+
+  .thesis-info .container-media h3, p {
+    display: none;
+  }
+
+.thesis-info {
+  padding-bottom: 0;
+}
+  .thesis-info .container-media {
+    width: 100%;
+    margin: 0;
+  }
+}
 /* Footer */
 
 footer {
@@ -610,4 +633,21 @@ footer .content {
 footer ul li {
   display: inline;
   padding-left: 0.85rem;
+}
+
+@media only screen and (max-width:580px) {
+  footer {
+    background-color: white;
+    border-top: none;
+
+  }
+
+  footer .content {
+    color: black;
+    font-size: 1rem;
+  }
+
+  footer ul {
+    display: none;
+  }
 }
