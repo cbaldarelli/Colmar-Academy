@@ -1,7 +1,7 @@
 /* Universal Styles */
 
 html {
-  font-family: "M PLUS rounded 1c", "Montserrat", sans-serif;
+  font-family: "Montserrat", "M PLUS rounded 1c", sans-serif;
   font-size: 16px;
   color: #383140;
   letter-spacing: 0.005em;
@@ -455,6 +455,9 @@ header .mobile {
     width: 100%;
     padding-left: 1rem;
   }
+  .feature:nth-child(2n+2) {
+    background-color: #8a8604;
+  }
 
 }
 /* Courses */
@@ -568,7 +571,7 @@ header .mobile {
     background-color: white;
     padding: 1rem 1rem 1.5rem 1rem;
     width: 100%;
-    margin-bottom: 0.5rem;
+    margin: 0 1rem 0.5rem 1rem;
   }
   .course-image {
     display: none;
