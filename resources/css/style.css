@@ -387,6 +387,7 @@ header .mobile {
     border-radius: 0.5rem;
     text-transform: uppercase;
     width: 100%;
+    height: auto;
     text-align: center;
   }
 }
@@ -406,6 +407,10 @@ header .mobile {
   color: #8a8604;
 }
 
+.feature-photo-mobile {
+  display: none;
+}
+
 @media only screen and (max-width:770px) {
   .information h2 {
     margin-top: 1rem;
@@ -417,6 +422,10 @@ header .mobile {
 }
 
 @media only screen and (max-width:580px) {
+  .information {
+    margin
+  }
+
   .information .container-media {
     display: none;
   }
@@ -431,13 +440,22 @@ header .mobile {
 
   .feature-photo {
     width: 100%;
+    padding-right: 0;
   }
-  .feature-info img {
-    max-width: 100%;
-    max-height: 6rem;
+
+  .feature-photo-web {
+    display: none;
+  }
+
+  .feature-photo-mobile {
+    display: block;
+  }
+
+  .feature-info {
+    width: 100%;
     padding-left: 1rem;
-    overflow: hidden;
   }
+
 }
 /* Courses */
 
@@ -486,7 +504,7 @@ header .mobile {
 }
 
 .course-list:nth-child(2n+2) {
-  color: #8a8604;
+  color: #383140;
 }
 
 .course-list:nth-child(2n+1) {
@@ -564,12 +582,11 @@ header .mobile {
     margin: 0;
   }
   .course-title a {
-    font-size: 1.5rem;
-    text-align: center;
+    font-size: 2rem;
   }
 
   .course-title {
-    text-align: center;
+    text-align: left;
   }
 }
 
